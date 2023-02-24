@@ -74,7 +74,11 @@ class kpoGUI:
 
     # Játék leírás meghatározása
     def show_game_description(self):
-        message = "Nem hinném, hogy kéne ide leírás.."
+        message = "Nevéből adódoan három szímbólum szerepel a játékban,\n" \
+                  " a Kő, a Papír és az Olló. A játékot áltabán ketten játszák,\n" \
+                  " egyszerre felmutatva a három szímbólumból egyet. \n " \
+                  "A papír legyőzi a követ de az ollót nem, \n" \
+                  "a kő legyőzi az ollót de a papírt nem és az olló legyőzi a papírt de a követ nem."
         messagebox.showinfo("Game desc.", message)
 
 
