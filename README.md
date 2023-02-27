@@ -10,5 +10,5 @@ A program indítása után egyből a játék panelnél találjuk magunkat. Itt t
 
 ## Függvények működése
 > - *--init--():* Létrehozza a játék ablakát, a Radio gombokat, a Játék leírás gombot, és a játék gombot -> Erre kattintva belépünk a play_game():-be.
-> - *play_game():* Megállapítja a játékot választását, majd generál a számítógépnek egy választ és eldöndti ki a nyertes.
+> - *play_game():* Megállapítja a játékos választását, majd generál a számítógépnek egy választ és eldöndti ki a nyertes.
 > - *show_game_description():* messagebox-ban jeleníti meg a játékleírást.
